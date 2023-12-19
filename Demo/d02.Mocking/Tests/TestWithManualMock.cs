@@ -1,7 +1,7 @@
 ﻿using System;
 using UnitTestingCourse.Demo.d02.Mocking.Code;
 
-namespace UnitTestingCourse.Demo.Tests
+namespace UnitTestingCourse.Demo.d02.Mocking.Tests
 {
 
     public class MockRunningCar : Car

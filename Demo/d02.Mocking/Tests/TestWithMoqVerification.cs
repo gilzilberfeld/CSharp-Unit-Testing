@@ -1,9 +1,9 @@
 ﻿using Moq;
 using UnitTestingCourse.Demo.d02.Mocking.Code;
 
-namespace UnitTestingCourse.Demo.Tests
+namespace UnitTestingCourse.Demo.d02.Mocking.Tests
 {
-    internal class Test_with_moq_verification
+    internal class TestWithMoqVerification
     {
         [Test]
         public void AC_is_set_before_we_drive()

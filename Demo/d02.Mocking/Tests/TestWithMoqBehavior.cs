@@ -1,7 +1,7 @@
 ﻿using UnitTestingCourse.Demo.d02.Mocking.Code;
 using Moq;
 
-namespace UnitTestingCourse.Demo.Tests
+namespace UnitTestingCourse.Demo.d02.Mocking.Tests
 {
 
 
