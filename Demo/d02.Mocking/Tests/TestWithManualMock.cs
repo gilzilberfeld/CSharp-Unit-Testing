@@ -1,5 +1,4 @@
-﻿using System;
-using UnitTestingCourse.Demo.d02.Mocking.Code;
+﻿using UnitTestingCourse.Demo.d02.Mocking.Code;
 
 namespace UnitTestingCourse.Demo.d02.Mocking.Tests
 {

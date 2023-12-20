@@ -1,4 +1,4 @@
-﻿namespace UnitTestingCourse.Exercise.ex5.TDD
+﻿namespace UnitTestingCourse.Demo.d04.TDD
 {
     internal class FizzBuzzKataTests
     {

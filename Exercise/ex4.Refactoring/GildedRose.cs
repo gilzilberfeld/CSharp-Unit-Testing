@@ -1,4 +1,4 @@
-﻿namespace UnitTestingCourse.Exercise.ex4.refactoring.GildedRose
+﻿namespace UnitTestingCourse.Exercise.ex4.Refactoring
 {
     public class GildedRose
     {
