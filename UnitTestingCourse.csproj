@@ -30,6 +30,31 @@
     <None Update="Solution\ex2.ParameterizedTests\data.csv">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Update="Solution\ex4.Refactoring\ex2.Refactor\GildedRoseTest.GildedRose_UpdateQuality_30_Days.approved.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(ProjectExt.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>%(ParentFile)%(ParentExtension)</DependentUpon>
+    </None>
+    <None Update="Solution\ex4.Refactoring\ex3.StoredItem\GildedRoseTest.GildedRose_UpdateQuality_30_Days.approved.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(ProjectExt.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>%(ParentFile)%(ParentExtension)</DependentUpon>
+    </None>
+    <None Update="Solution\ex4.Refactoring\ex4.Factory\GildedRoseTest.GildedRose_UpdateQuality_30_Days.approved.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(ProjectExt.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>%(ParentFile)%(ParentExtension)</DependentUpon>
+    </None>
+    <None Update="Solution\ex4.Refactoring\ex5.AddConjured\GildedRoseTest.GildedRose_UpdateQuality_30_Days.approved.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(ProjectExt.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>%(ParentFile)%(ParentExtension)</DependentUpon>
+    </None>
+    <None Update="Solution\ex4.Refactoring\ex6.Notify\GildedRoseTest.GildedRose_UpdateQuality_30_Days.approved.txt">
+      <ParentFile>$([System.String]::Copy('%(FileName)').Split('.')[0])</ParentFile>
+      <ParentExtension>$(ProjectExt.Replace('proj', ''))</ParentExtension>
+      <DependentUpon>%(ParentFile)%(ParentExtension)</DependentUpon>
+    </None>
   </ItemGroup>
 
 </Project>
