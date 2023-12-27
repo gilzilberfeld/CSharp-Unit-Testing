@@ -5,7 +5,7 @@
     {
 
         [Test]
-        public void When_display_is_off_display_not_connected()
+        public void When_external_display_is_off_display_not_connected()
         {
             MockDisplay display = new MockDisplay();
             display.isOn = false;

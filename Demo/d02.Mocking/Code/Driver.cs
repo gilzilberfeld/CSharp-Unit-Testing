@@ -10,7 +10,7 @@
             this.car = car;
         }
 
-        public bool CanDrive()
+        public bool CanStartDriving()
         {
             return !car.IsRunning();
         }

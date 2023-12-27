@@ -1,5 +1,4 @@
 ﻿using Moq;
-using UnitTestingCourse.Demo.d02.Mocking.Code;
 
 namespace UnitTestingCourse.Solution.ex3.Mocking
 {

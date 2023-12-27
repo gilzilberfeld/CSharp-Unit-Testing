@@ -10,15 +10,17 @@
             this.text = text;
         }
 
+      
+        public bool IsOn()
+        {
+            return isOn;
+        }
+
         public string GetText()
         {
             return this.text;
         }
 
-        public bool IsOn()
-        {
-            return isOn;
-        }
     }
 
 }

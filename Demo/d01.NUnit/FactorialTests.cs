@@ -9,7 +9,6 @@ namespace UnitTestingCourse.Demo.d01.NUnit
             Assert.That(factorial.Calculate(1), Is.EqualTo(1));
             Assert.That(factorial.Calculate(2), Is.EqualTo(2));
             Assert.That(factorial.Calculate(3), Is.EqualTo(6));
-
         }
 
         [Test]

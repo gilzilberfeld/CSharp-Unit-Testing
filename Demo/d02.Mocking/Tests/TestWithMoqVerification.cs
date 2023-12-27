@@ -12,7 +12,7 @@ namespace UnitTestingCourse.Demo.d02.Mocking.Tests
             Driver driver = new Driver(mockCar.Object);
             driver.Drive();
             mockCar.Verify(car => car.SetAC(It.IsAny<AirCondition>()),
-                Times.AtLeastOnce);
+                Times.Once);
         }
 
 

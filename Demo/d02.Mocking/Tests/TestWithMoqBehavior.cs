@@ -15,10 +15,9 @@ namespace UnitTestingCourse.Demo.d02.Mocking.Tests
             var mockCar = new Mock<Car>();
             mockCar.Setup(car => car.IsRunning()).Returns(true);
 
-
             Driver driver = new Driver(mockCar.Object);
 
-            Assert.That(driver.CanDrive(), Is.False);
+            Assert.That(driver.CanStartDriving(), Is.False);
         }
 
         [Test]
